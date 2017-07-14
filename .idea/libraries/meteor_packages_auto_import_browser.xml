@@ -101,7 +101,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/dynamic-import/0.1.0/web.browser/client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/dynamic-import/0.1.0/web.browser/server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-client/0.4.1/web.browser/runtime.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/web.browser/options.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
         <item url="file://$USER_HOME$/.meteor/packages/babel-runtime/1.0.1/web.browser/babel-runtime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/web.browser/client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/web.browser/.npm/package/node_modules/install/install.js" />
@@ -249,7 +251,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/dynamic-import/0.1.0/web.browser/client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/dynamic-import/0.1.0/web.browser/server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime-client/0.4.1/web.browser/runtime.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/js/bootstrap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/web.browser/options.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/twbs_bootstrap/3.3.6/web.browser/dist/css/bootstrap.css" />
       <root url="file://$USER_HOME$/.meteor/packages/babel-runtime/1.0.1/web.browser/babel-runtime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/web.browser/client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/modules-runtime/0.8.0/web.browser/.npm/package/node_modules/install/install.js" />

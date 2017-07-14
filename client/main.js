@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import ImageList from './components/ImageList';
 
 const App = () => {
-  return (
-    <div> display me <ImageList /></div>
-  );
+  return <ImageList />;
 };
 
 Meteor.startup(() => {

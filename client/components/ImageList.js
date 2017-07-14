@@ -2,20 +2,20 @@ import React, {Component} from 'react';
 import ImageDetail from './ImageDetail';
 
 const IMAGES = [
-  { title: 'this', image: 'http://dummyimage.com/100x80'},
-  { title: 'what do you want', image: 'http://dummyimage.com/100x80'},
-  { title: 'more pictures', image: 'http://dummyimage.com/100x80'},
-  { title: 'no no no more', image: 'http://dummyimage.com/100x80'}
+  { title: 'this', link: 'http://dummyimage.com/100x80', description: 'afaefu a elkfjh akfjh ekjh  kjhaefka jekjl'},
+  { title: 'what do you want', link: 'http://dummyimage.com/100x80', description: 'afaefu a elkfjh akfjh ekjh  kjhaefka jekjl'},
+  { title: 'more pictures', link: 'http://dummyimage.com/100x80', description: 'afaefu a elkfjh akfjh ekjh  kjhaefka jekjl'},
+  { title: 'no no no more', link: 'http://dummyimage.com/100x80', description: 'afaefu a elkfjh akfjh ekjh  kjhaefka jekjl'}
 ];
 
 const ImageList = () => {
   const RenderedImages = IMAGES.map((image) => {
-    return <ImageDetail image={image} />;
+    return <ImageDetail image={image} key={image.title}/>;
   
   });
   
   return (
-    <ul>
+    <ul className="media-list list-group">
       {RenderedImages}
     </ul>
   );
