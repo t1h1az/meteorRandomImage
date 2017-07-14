@@ -18,13 +18,10 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.images);
-    return <ImageList />;
+    return <ImageList images={this.state.images}/>;
   }
 }
 
 Meteor.startup(() => {
   ReactDOM.render(<App />, document.querySelector('.container'));
-  axios.get('https://api.imgur.com/3/gallery/hot/viral/0')
-    .then(response => console.log(response));
 });
